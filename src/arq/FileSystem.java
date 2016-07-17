@@ -5,7 +5,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SistemaArquivo {
+public class FileSystem {
 	
 	private static int numberOfFiles;
 	
@@ -82,11 +82,11 @@ public class SistemaArquivo {
 		//listarArquivos("/Users/tiago/Desktop/Musicas/Sertanejo/Rio Negro & Solimoes");
 		numberOfFiles = 0;
 //		listFiles("/Users/tiago/Desktop/Mus");
-		System.out.println("Teste mach: " + isISO8859("Rio Negro E Solimões - Arrastão"));
-		System.out.println("Teste mach: " + isISO8859("Rio Negro E Solimões - Arrastão"));
+		System.out.println("Test mach: " + isISO8859("Rio Negro E Solimões - Arrastão"));
+		System.out.println("Test mach: " + isISO8859("Rio Negro E Solimões - Arrastão"));
 		imprimirCaracteres("Rio Negro E Solimões - Arrastão");
 		imprimirCaracteres("Rio Negro E Solimões - Arrastão");
 		System.out.println("--------->>>>>>>>>>><<<<<<<<<<<<--------------");
-		System.out.println("total de arquivos alterados: " + numberOfFiles);
+		System.out.println("total of changed files: " + numberOfFiles);
 	}
 }
