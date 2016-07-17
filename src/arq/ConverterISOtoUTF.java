@@ -5,7 +5,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class FileSystem {
+public class ConverterISOtoUTF {
 	
 	private static int numberOfFiles;
 	
