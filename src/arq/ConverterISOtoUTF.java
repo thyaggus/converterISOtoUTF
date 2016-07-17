@@ -17,7 +17,7 @@ public class ConverterISOtoUTF {
     }
 	
 	private static String nameUTF(String nomeOriginal) throws UnsupportedEncodingException{
-		return new String(nomeOriginal.getBytes("ISO-8859-1"), "UTF-8");
+		return new String(nomeOriginal.getBytes("ISO-8859-1"), "UTF-8").toString();
 	}
 	
 	private static String rename(String name, String address) throws UnsupportedEncodingException{
